@@ -17,21 +17,4 @@ function Todo (props) {
 }
 
 
-
-// function Todo(props) {
-//     return (
-//       <div
-//         className="todo"
-//         key={props.todo.id}
-//         onClick={event => {
-//           props.toggleItem(props.todo.id);
-//         }}
-//       >
-//         <p>{props.todo.task}</p>
-//       </div>
-//     );
-//   }
-
-
-
 export default Todo
